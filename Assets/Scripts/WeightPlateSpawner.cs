@@ -28,7 +28,6 @@ public class WeightPlateSpawner : MonoBehaviour
         
         weightPlateMeshRenderer.material = weightPlateMeshMaterials[Random.Range(0, weightPlateMeshMaterials.Length)];
         currentSpawnCoroutine = StartCoroutine(SpawnCoroutine(weightPlate));
-
     }
 
     private Vector3 SetSpawnPoint()
